@@ -1,0 +1,128 @@
+{
+  "doc": "Logistics test schema",
+  "fields": [
+    {
+      "name": "GpsProvider",
+      "type": "string"
+    },
+    {
+      "name": "BookingID",
+      "type": "string"
+    },
+    {
+      "name": "MarketRegular",
+      "type": "string"
+    },
+    {
+      "name": "BookingID_Date",
+      "type": "string"
+    },
+    {
+      "name": "vehicle_no",
+      "type": "string"
+    },
+    {
+      "name": "Origin_Location",
+      "type": "string"
+    },
+    {
+      "name": "Destination_Location",
+      "type": "string"
+    },
+    {
+      "name": "Org_lat_lon",
+      "type": "string"
+    },
+    {
+      "name": "Des_lat_lon",
+      "type": "string"
+    },
+    {
+      "name": "Data_Ping_time",
+      "type": "string"
+    },
+    {
+      "name": "Planned_ETA",
+      "type": "string"
+    },
+    {
+      "name": "Current_Location",
+      "type": "string"
+    },
+    {
+      "name": "actual_eta",
+      "type": "string"
+    },
+    {
+      "name": "Curr_lat",
+      "type": "float"
+    },
+    {
+      "name": "Curr_lon",
+      "type": "float"
+    },
+    {
+      "name": "ontime",
+      "type": "string"
+    },
+    {
+      "name": "OriginLocation_Code",
+      "type": "string"
+    },
+    {
+      "name": "DestinationLocation_Code",
+      "type": "string"
+    },
+    {
+      "name": "trip_start_date",
+      "type": "string"
+    },
+    {
+      "name": "trip_end_date",
+      "type": "string"
+    },
+    {
+      "name": "TRANSPORTATION_DISTANCE_IN_KM",
+      "type": "float"
+    },
+    {
+      "name": "vehicleType",
+      "type": "string"
+    },
+    {
+      "name": "Minimum_kms_to_be_covered_in_a_day",
+      "type": "float"
+    },
+    {
+      "name": "Driver_Name",
+      "type": "string"
+    },
+    {
+      "name": "Driver_MobileNo",
+      "type": "float"
+    },
+    {
+      "name": "customerID",
+      "type": "string"
+    },
+    {
+      "name": "customerNameCode",
+      "type": "string"
+    },
+    {
+      "name": "supplierID",
+      "type": "string"
+    },
+    {
+      "name": "supplierNameCode",
+      "type": "string"
+    },
+    {
+      "name": "MaterialShipped",
+      "type": "string"
+    }
+  ],
+  "name": "logistics",
+  "namespace": "test.logistics",
+  "type": "record"
+}
