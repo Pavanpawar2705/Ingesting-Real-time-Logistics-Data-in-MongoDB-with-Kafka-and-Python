@@ -50,7 +50,7 @@ consumer = DeserializingConsumer({
 consumer.subscribe(['log'])
 
 #Intializing a Mongo Instance
-conn_string='mongodb+srv://powerpavan23:Poppytillu@cluster0.qoho0k0.mongodb.net/?retryWrites=true&w=majority'
+conn_string='mongodb+srv://powerpavan23:<password>@cluster0.qoho0k0.mongodb.net/?retryWrites=true&w=majority'
 client = MongoClient(conn_string)
 db = client['gds_db']
 logistics_test_collection = db['logistics_test']
@@ -58,7 +58,7 @@ logistics_test_collection = db['logistics_test']
 #Continually read messages from Kafka
 try:
     while True:
-        msg = consumer.poll(1.0) # How many seconds to wait for message
+        msg = consumer.poll(1.0) # How many seconds to wait for the message
 
         if msg is None:
             continue
